@@ -38,7 +38,7 @@ namespace Task3
         }
 
         DBconnection db = new DBconnection("server=chuc.caseum.ru;port=33333;user=st_2_20_25;" +
-                "database=is_2_20_st25_KURS;password=56496034 ;");
+                "database=is_2_20_st25_KURS;password=56496034;");
 
         MySqlConnection conn;
 
