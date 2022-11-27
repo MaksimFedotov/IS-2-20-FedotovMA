@@ -39,5 +39,23 @@ namespace WindowsFormsApp1
             task2 = new Task2.Form1();
             task2.ShowDialog();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            task3 = new Task3.Form1();
+            task3.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            task4 = new Task4.Form1();
+            task4.ShowDialog();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            task5 = new Task5.Form1();
+            task5.ShowDialog();
+        }
     }
 }
