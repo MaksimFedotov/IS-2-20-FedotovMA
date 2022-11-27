@@ -57,7 +57,7 @@ namespace Task1
 
             public override void Display()
             {
-                string info = $"Ифнормация о жестком диске с артикулом: {this.article} - Количество вращений: {this.turns}, Интерфейс: {this.interfaceType}, Объем: {this.size}, Цена: {this.price}, Год выпуска: {this.releaseYear}.";
+                string info = $"Ифнормация о жестком диске с артикулом: {this.article} - Количество вращений: {this.turns} об/мин, Интерфейс: {this.interfaceType}, Объем: {this.size} гб, Цена: {this.price} руб, Год выпуска: {this.releaseYear}г.";
                 Notify?.Invoke(info);
             }
         }
@@ -85,7 +85,7 @@ namespace Task1
 
             public override void Display()
             {
-                string info = $"Информация о видеокарте с артикулом: {this.article} - Частота: {this.frequency}, Производитель: {this.brand}, Видеопамять: {this.size}, Цена: {this.price}, Год выпуска: {this.releaseYear}.";
+                string info = $"Информация о видеокарте с артикулом: {this.article} - Частота: {this.frequency} мгц, Производитель: {this.brand}, Видеопамять: {this.size} гб, Цена: {this.price} руб, Год выпуска: {this.releaseYear}г.";
                 Notify?.Invoke(info);
             }
         }
